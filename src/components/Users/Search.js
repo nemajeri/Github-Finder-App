@@ -22,6 +22,7 @@ export class Search extends Component {
         }
      
     onChange = e => this.setState({ [e.target.name]: e.target.value });
+        
 
     render() {
         const {showClear, clearUsers} = this.props
